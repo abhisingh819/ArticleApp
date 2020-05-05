@@ -91,7 +91,7 @@ bool sortedAscending = NO;
     NSString* webString = [viewPresenter getStringFromUrl:article.url];
     if(![webString isEqualToString:@""]){
         [self.viewPresenter updateRecord: article.url :webString];
-        [self showAlert:@"You can now view the page online" :@"Saved Successfully"];
+        [self showAlert:@"You can now view the page offine" :@"Saved Successfully"];
     }
 }
 
